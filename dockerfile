@@ -1,5 +1,5 @@
 FROM  node 
-ADD . /app/
+COPY . /app/
 EXPOSE 3000
 WORKDIR /app
 CMD ["node","./index.js"]
