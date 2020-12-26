@@ -7,4 +7,4 @@ services:
 script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t mini-koa:latest .
-  - docker push mini-koa:latest
+  - docker push beta/mini-koa:latest
